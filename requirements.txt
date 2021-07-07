@@ -4,3 +4,4 @@ streamlit
 requests
 matplotlib
 scikit-learn
+xlrd

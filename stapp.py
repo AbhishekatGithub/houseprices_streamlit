@@ -13,13 +13,12 @@ import matplotlib.pyplot as plt
 import time
 import requests
 import json
-import xgboost
+
 
 # importing machine learning libraries
 
 from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
-from xgboost import XGBRegressor
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error as mse

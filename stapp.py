@@ -73,7 +73,7 @@ params={
 'bedrooms' : st.sidebar.selectbox('Bedrooms needed',(1,2,3,4,5)),
 'bathrooms' : st.sidebar.selectbox('Bathrooms needed(1 small=0.5,1 big=1)',(1,1.5,2,2.5,3,3.5,4)),
 'floors' : st.sidebar.selectbox('Number of floors available',(df['floors'].unique())),
-'sqft' : st.sidebar.slider('Minimum Space required(in Sq.ft)', 800,max(df['sqft_living']),step=100),
+'sqft_living' : st.sidebar.slider('Minimum Space required(in Sq.ft)', 800,max(df['sqft_living']),step=100),
 'waterfront':1 if st.sidebar.checkbox('I want a water facing property') else 0
 }
 st.sidebar.text(" Note that there are only a few water facing properties")

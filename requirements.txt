@@ -4,6 +4,6 @@ numpy
 streamlit
 requests
 matplotlib
-scikit-learn==0.15 
+scikit-learn 
 xlrd
 openpyxl

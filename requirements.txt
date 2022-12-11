@@ -1,3 +1,4 @@
+lifelines=0.9
 pandas
 numpy
 streamlit
@@ -5,5 +6,3 @@ requests
 matplotlib
 scikit-learn
 xlrd
-openpyxl
-lifelines=0.9

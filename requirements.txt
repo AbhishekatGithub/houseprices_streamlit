@@ -1,4 +1,4 @@
-pandas
+pandas=0.19
 numpy
 streamlit
 requests
@@ -6,5 +6,4 @@ matplotlib
 scikit-learn
 xlrd
 openpyxl
-patsy
 statsmodel

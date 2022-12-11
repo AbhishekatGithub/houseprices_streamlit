@@ -1,5 +1,5 @@
-lifelines=0.9
-pandas
+
+pandas==0.19
 numpy
 streamlit
 requests

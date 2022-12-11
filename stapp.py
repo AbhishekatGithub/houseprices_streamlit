@@ -97,7 +97,7 @@ def map_df(df):
 	df=df[df['bathrooms']==params['bathrooms']]
 	df=df[df['floors']==params['floors']]
 	df=df[df['waterfront']==params['waterfront']]
-	df=df[(df['sqft_living']>0.9*params['sqft']) & (df['sqft_living']<1.1*params['sqft'])]
+	df=df[(df['sqft_living']>0.9*params['sqft_living']) & (df['sqft_living']<1.1*params['sqft_living'])]
 	df.reset_index()
 
 # mapping zipcodes to coordinates

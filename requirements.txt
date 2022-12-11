@@ -6,3 +6,5 @@ matplotlib
 scikit-learn
 xlrd
 openpyxl
+patsy
+statsmodel

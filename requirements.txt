@@ -6,4 +6,3 @@ matplotlib
 scikit-learn
 xlrd
 openpyxl
-statsmodel
